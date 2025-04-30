@@ -9,3 +9,5 @@ A Streamlit-based app for booking flexible medical staff: location managers plac
 - **Auth:** bcrypt-hashed passwords + JWT
 - **Email:** SendGrid or SMTP
 - **Database:** SQLite (dev) / PostgreSQL (prod)
+
+## Local Setup
