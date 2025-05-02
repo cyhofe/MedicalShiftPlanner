@@ -1,9 +1,9 @@
-// .devcontainer/devcontainer.json
 {
   "name": "MedicalShiftPlanner",
   "context": "..",
   "dockerFile": "Dockerfile",
   "workspaceFolder": "/app",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind",
   "forwardPorts": [8502],
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
