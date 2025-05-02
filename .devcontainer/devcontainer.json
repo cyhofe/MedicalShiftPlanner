@@ -1,0 +1,16 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "MedicalShiftPlanner",
+  "context": "..",
+  "dockerFile": "Dockerfile",
+  "workspaceFolder": "/app",
+  "forwardPorts": [8502],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-azuretools.vscode-docker"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
